@@ -1,4 +1,4 @@
-import java.io.Serializable;
+package Youtube;
 
 public class User {
     int liveLevel;

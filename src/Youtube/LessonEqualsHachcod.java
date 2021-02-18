@@ -1,3 +1,5 @@
+package Youtube;
+
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Objects;
@@ -44,9 +46,9 @@ public class LessonEqualsHachcod {
         System.out.println(karnegiBook.autor);
 
 //        System.out.println(book.hashCode());
-//        System.out.println(new Book().hashCode());
-//        System.out.println(book.equals(new Book()));
-//        System.out.println(book == new Book());
+//        System.out.println(new Youtube.Book().hashCode());
+//        System.out.println(book.equals(new Youtube.Book()));
+//        System.out.println(book == new Youtube.Book());
     }
 }
 

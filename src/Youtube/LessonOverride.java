@@ -1,4 +1,6 @@
- class Parent {
+package Youtube;
+
+class Parent {
     Parent method(){
           return new Parent();
       }

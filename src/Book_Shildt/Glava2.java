@@ -1,4 +1,4 @@
-import java.util.Scanner;
+package Book_Shildt;
 
 public class Glava2 {
     public static void main(String[] args) throws java.io.IOException {

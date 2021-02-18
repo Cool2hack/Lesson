@@ -1,3 +1,5 @@
+package Book_Shildt;
+
 class Glava6 {
 }
 
@@ -19,7 +21,7 @@ class Ek{
 
     public static void main(String[] args) {
         String str = "Строка";
-/*        Ek ek = new Ek();
+/*        First.Ek ek = new First.Ek();
         ek.zad(str);*/
 
         print(str);

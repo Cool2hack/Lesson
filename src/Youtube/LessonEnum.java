@@ -1,3 +1,5 @@
+package Youtube;
+
 import java.util.Scanner;
 
 public class LessonEnum {

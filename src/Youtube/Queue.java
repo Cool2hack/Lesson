@@ -1,4 +1,4 @@
-import com.sun.jdi.request.StepRequest;
+package Youtube;
 
 public class Queue {
     private char q[];
@@ -11,7 +11,7 @@ public class Queue {
         putloc = getloc = 0;
     }
 
-    // Создание очереди на основе имеющегося объекта Queue
+    // Создание очереди на основе имеющегося объекта Youtube.Queue
     Queue(Queue ob) {
         this.putloc = ob.putloc;
         this.getloc = ob.getloc;

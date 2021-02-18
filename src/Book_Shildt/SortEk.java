@@ -1,3 +1,5 @@
+package Book_Shildt;
+
 public class SortEk {
 
     static void qs (char arr[]){
