@@ -97,19 +97,32 @@ class Rectangle extends TwoDShape{
     }
 }
 
+class Circle extends TwoDShape{
+    Circle(){
+        super();
+    }
+    Circle(double x){
+        super(x, "круг");
+    }
+    double area(){
+        return getWidht()*getWidht()*3.1415926535/4;
+    }
+}
+
 class AbsShape {
     public static void main(String[] args) {
         TwoDShape twoDShape[] = new TwoDShape[4];
         twoDShape[0] = new Triangle("контурный", 8, 12);
         twoDShape[1] = new Rectangle(10);
         twoDShape[2] = new Rectangle(10,4);
-        twoDShape[3] = new Triangle(7);
+        twoDShape[3] = new Circle(7);
 
-        for (int i = 0; i < twoDShape.length; i++) {
+        /*for (int i = 0; i < twoDShape.length; i++) {
             System.out.println("Объект - " + twoDShape[i].getName());
             System.out.println("Площадь - " + twoDShape[i].area());
             System.out.println();
-        }
+        }*/
+        System.out.println(twoDShape[3].area());
     }
 }
 
