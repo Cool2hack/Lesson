@@ -15,8 +15,6 @@ public class SortArray {
                 if (t2 < min) min = t2;
                 if (t2 > max) max = t2;
             }
-
-
         }
         System.out.println("min " + min + " max " + max);
     }
