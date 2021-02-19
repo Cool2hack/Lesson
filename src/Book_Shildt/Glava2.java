@@ -1,4 +1,4 @@
-package Book_Shildt;
+package book_Shildt;
 
 public class Glava2 {
     public static void main(String[] args) throws java.io.IOException {

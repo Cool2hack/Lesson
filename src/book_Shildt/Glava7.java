@@ -4,25 +4,25 @@ public class Glava7 {
 }
 
 abstract class TwoDShape {
-    private double widht;
+    private double width;
     private double height;
     private String name;
 
     TwoDShape(){
-        widht = height = 0;
+        width = height = 0;
         name = "none";
     }
-    TwoDShape(double widht, double height, String name){
-        this.widht = widht;
+    TwoDShape(double width, double height, String name){
+        this.width = width;
         this.height = height;
         this.name = name;
     }
     TwoDShape(double x, String name){
-        widht = height = x;
+        width = height = x;
         this.name = name;
     }
     TwoDShape(TwoDShape ob){
-        widht = ob.getWidht();
+        width = ob.getWidth();
         height = ob.getHeight();
         name = ob.getName();
     }
@@ -30,21 +30,21 @@ abstract class TwoDShape {
     public void setHeight(double height) {
         this.height = height;
     }
-    public void setWidht(double widht) {
-        this.widht = widht;
+    public void setWidth(double width) {
+        this.width = width;
     }
     public double getHeight() {
         return height;
     }
-    public double getWidht() {
-        return widht;
+    public double getWidth() {
+        return width;
     }
     public String getName() {
         return name;
     }
 
-    void showDim (double widht, double height){
-        System.out.println("Ширина и высота соответственно: " + widht + " " + height);
+    void showDim (double width, double height){
+        System.out.println("Ширина и высота соответственно: " + width + " " + height);
     }
     abstract double area ();
 }
@@ -93,7 +93,7 @@ class Rectangle extends TwoDShape{
     }
 
     double area (){
-        return getHeight() * getWidht();
+        return getHeight() * getWidth();
     }
 }
 
@@ -105,7 +105,7 @@ class Circle extends TwoDShape{
         super(x, "круг");
     }
     double area(){
-        return getWidht()*getWidht()*3.1415926535/4;
+        return getWidth()*getWidth()*3.1415926535/4;
     }
 }
 
