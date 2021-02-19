@@ -1,4 +1,4 @@
-package Book_Shildt;
+package book_Shildt;
 
 public class Glava7 {
 }

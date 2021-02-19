@@ -1,4 +1,4 @@
-package Youtube;
+package youtube;
 
 class Parent {
     Parent method(){

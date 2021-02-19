@@ -1,4 +1,4 @@
-package Youtube;
+package youtube;
 
 public class Queue {
     private char q[];
@@ -11,7 +11,7 @@ public class Queue {
         putloc = getloc = 0;
     }
 
-    // Создание очереди на основе имеющегося объекта Youtube.Queue
+    // Создание очереди на основе имеющегося объекта youtube.Queue
     Queue(Queue ob) {
         this.putloc = ob.putloc;
         this.getloc = ob.getloc;

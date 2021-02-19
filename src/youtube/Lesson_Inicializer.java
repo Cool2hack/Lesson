@@ -1,8 +1,8 @@
-package Youtube;
+package youtube;
 
 class Parents {
     Parents() {
-        System.out.println("Youtube.Parents constructor");
+        System.out.println("youtube.Parents constructor");
     }
 }
 

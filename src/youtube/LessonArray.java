@@ -1,4 +1,4 @@
-package Youtube;
+package youtube;
 
 public class LessonArray {
     public static void main(String[] args) {

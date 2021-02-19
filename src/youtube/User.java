@@ -1,4 +1,4 @@
-package Youtube;
+package youtube;
 
 public class User {
     int liveLevel;
